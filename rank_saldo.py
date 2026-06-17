@@ -26,6 +26,6 @@ async def rank(ctx):
 async def saldo(ctx):
     await ctx.send(f"💰 Teste de saldo para {ctx.author.display_name}")
 
-TOKEN = os.getenv("MTUxNjg5MDg4MzE2ODAxNDM4Ng.GPFsv3.AfWEmeQN5pxjukr6L0_VvP24__tJyombr4qMyo")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 bot.run(TOKEN)
